@@ -1,0 +1,4 @@
+interface:
+  display_name: 'CZUR File OCR'
+  short_description: 'Extract text and export ordered OCR documents'
+  default_prompt: 'Use $czur-file-ocr to extract text from local document images or export ordered images as OCR documents using CZUR Runtime, without claiming generic PDF or Office conversion.'

@@ -1,0 +1,4 @@
+interface:
+  display_name: 'CZUR Image Color'
+  short_description: 'Optimize document colors while preserving original files'
+  default_prompt: 'Use $czur-image-color to optimize color modes of existing local document images without unintended page cropping, including seals, certificates, grayscale, and monochrome output.'

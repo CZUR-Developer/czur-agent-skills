@@ -1,0 +1,8 @@
+node_modules/
+coverage/
+dist/
+.omx/
+.env
+.env.*
+.DS_Store
+Thumbs.db

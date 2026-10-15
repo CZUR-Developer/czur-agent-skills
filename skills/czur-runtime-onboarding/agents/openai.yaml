@@ -1,0 +1,4 @@
+interface:
+  display_name: 'CZUR Runtime Onboarding'
+  short_description: 'Safely guide CZUR Runtime installation and updates'
+  default_prompt: 'Use $czur-runtime-onboarding to check my local CZUR Runtime and guide a confirmed download and manual installation if needed.'

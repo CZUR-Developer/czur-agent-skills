@@ -1,0 +1,7 @@
+{
+  "steps": [],
+  "target": {
+    "type": "pdf",
+    "export_type": "multi-page"
+  }
+}

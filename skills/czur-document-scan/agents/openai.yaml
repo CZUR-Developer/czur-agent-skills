@@ -1,0 +1,4 @@
+interface:
+  display_name: 'CZUR Document Scan'
+  short_description: 'Scan and deliver local CZUR document images'
+  default_prompt: 'Use $czur-document-scan to scan documents with local CZUR devices using material-aware page and color settings, then deliver saved images for later OCR or PDF export.'

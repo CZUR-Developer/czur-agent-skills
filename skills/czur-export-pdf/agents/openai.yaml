@@ -1,0 +1,4 @@
+interface:
+  display_name: 'CZUR PDF Export'
+  short_description: 'Export ordered images as image-only or OCR PDFs'
+  default_prompt: 'Use $czur-export-pdf to combine ordered local document images into image-only PDFs by default, or OCR PDFs when searchable or copyable text is explicitly requested.'

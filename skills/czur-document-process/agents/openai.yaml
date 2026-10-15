@@ -1,0 +1,4 @@
+interface:
+  display_name: 'CZUR Document Processing'
+  short_description: 'Correct pages and apply local document enhancement'
+  default_prompt: 'Use $czur-document-process to correct document pages and combine page, color, and supported local enhancement workflows for existing document images.'
