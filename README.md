@@ -32,7 +32,8 @@ Installing a Skill does **not** register an MCP server, log in, or install CZUR 
 ## Configure CZUR tools
 
 The Skills use the published [CLI](https://www.npmjs.com/package/@czur/open-cli) and
-[MCP server](https://www.npmjs.com/package/@czur/open-mcp), currently pinned to `0.1.2` in these instructions.
+[MCP server](https://www.npmjs.com/package/@czur/open-mcp). The MCP configuration uses the npm
+`latest` release; CLI examples remain pinned to `0.1.2`.
 Configure a local stdio MCP server using your host's configuration format. A common configuration is:
 
 ```json
@@ -40,7 +41,7 @@ Configure a local stdio MCP server using your host's configuration format. A com
   "mcpServers": {
     "czur-open": {
       "command": "npx",
-      "args": ["-y", "@czur/open-mcp@0.1.2"]
+      "args": ["-y", "@czur/open-mcp@latest"]
     }
   }
 }

@@ -31,7 +31,8 @@ npx skills add CZUR-Developer/czur-agent-skills --skill czur-file-ocr --agent cl
 ## 配置 CZUR 工具
 
 使用已发布的 [CLI](https://www.npmjs.com/package/@czur/open-cli) 和
-[MCP Server](https://www.npmjs.com/package/@czur/open-mcp)，本说明固定为 `0.1.2`。
+[MCP Server](https://www.npmjs.com/package/@czur/open-mcp)。MCP 配置使用 npm 的 `latest`
+版本，CLI 示例仍固定为 `0.1.2`。
 在 Agent 的 MCP 设置中配置本地 stdio 服务，常见格式为：
 
 ```json
@@ -39,7 +40,7 @@ npx skills add CZUR-Developer/czur-agent-skills --skill czur-file-ocr --agent cl
   "mcpServers": {
     "czur-open": {
       "command": "npx",
-      "args": ["-y", "@czur/open-mcp@0.1.2"]
+      "args": ["-y", "@czur/open-mcp@latest"]
     }
   }
 }
